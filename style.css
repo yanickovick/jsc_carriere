@@ -1321,3 +1321,36 @@ font-size:24px;
 }
 
 }
+/*==========================
+        LOGO
+==========================*/
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    text-decoration:none;
+    color:#fff;
+    font-weight:700;
+    font-size:24px;
+}
+
+.logo img{
+    width:65px;
+    height:65px;
+    object-fit:contain;
+    border-radius:50%;
+    background:white;
+    padding:4px;
+    box-shadow:0 4px 12px rgba(0,0,0,.3);
+    transition:.3s;
+}
+
+.logo img:hover{
+    transform:rotate(8deg) scale(1.08);
+}
+
+.logo span{
+    color:#fff;
+    letter-spacing:1px;
+}
