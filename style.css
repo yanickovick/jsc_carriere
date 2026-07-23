@@ -1366,3 +1366,42 @@ font-size:24px;
     color:#fff;
     letter-spacing:1px;
 }
+/*=============================
+    RESPONSIVE MOBILE
+==============================*/
+
+@media (max-width:768px){
+
+.logo{
+
+    gap:8px;
+
+}
+
+.logo img{
+
+    width:45px;
+
+    height:45px;
+
+}
+
+.logo-text h2{
+
+    font-size:16px;
+
+}
+
+.logo-text p{
+
+    font-size:9px;
+
+}
+
+.hero-content{
+
+    margin-top:90px;
+
+}
+
+}
